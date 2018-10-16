@@ -1,13 +1,4 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-client.on('ready', () => {
-  client.user.setGame('f!help |Over Power Shop','https://www.twitch.tv/peery13');
-  console.log('---------------');
-  console.log(' Bot Is Online')
-  console.log('---------------')
-});
 
-  
 client.on("message", message => {
  if (message.content === "f!help") {
   const embed = new Discord.RichEmbed() 
@@ -10357,9 +10348,4 @@ message.member.addRole(message.guild.roles.find("name", "81"));
 message.member.removeRole(message.guild.roles.find("name", "82"));
 message.member.removeRole(message.guild.roles.find("name", "83"));
 message.member.removeRole(message.guild.roles.find("name", "84"));
-message.member.removeRole(message.guild.roles.find("name
-						   
-});					   
-						   
-client.login(process.env.BOT_TOKEN);
-					   
+message.member.removeRole(message.guild.roles.find("name", "85"));
