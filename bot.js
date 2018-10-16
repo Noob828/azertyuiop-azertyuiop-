@@ -10358,3 +10358,8 @@ message.member.removeRole(message.guild.roles.find("name", "82"));
 message.member.removeRole(message.guild.roles.find("name", "83"));
 message.member.removeRole(message.guild.roles.find("name", "84"));
 message.member.removeRole(message.guild.roles.find("name
+						   
+});					   
+						   
+client.login(process.env.BOT_TOKEN);
+					   
